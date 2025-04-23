@@ -1,5 +1,3 @@
-# main.py
-
 import os
 from calendar_utils import generate_ics
 from data_storage import save_event, check_duplicate
