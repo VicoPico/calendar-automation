@@ -38,30 +38,34 @@ calendar-automation-app
 
 1. Clone the repository:
 
-   ```
+   ```bash
    git clone <repository-url>
    cd calendar-automation-app
    ```
 
 2. Create a virtual environment:
 
-   ```
+   ```bash
    python -m venv venv
    ```
 
 3. Activate the virtual environment:
 
    - On Windows:
-     ```
+
+     ```powershell
      venv\Scripts\activate
      ```
+
    - On macOS/Linux:
-     ```
+
+     ```bash
      source venv/bin/activate
      ```
 
 4. Install the required dependencies:
-   ```
+
+   ```bash
    pip install -r requirements.txt
    ```
 
@@ -69,7 +73,7 @@ calendar-automation-app
 
 To run the application, execute the following command in the terminal:
 
-```
+```bash
 python src/main.py
 ```
 
